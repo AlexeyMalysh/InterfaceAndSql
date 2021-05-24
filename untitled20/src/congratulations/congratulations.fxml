@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="491.0" prefWidth="718.0" style="-fx-background-color: #E0FFFF;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="congratulations.CongratulationsController">
+   <children>
+      <Text fill="ROSYBROWN" layoutX="178.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I congratulate you!" wrappingWidth="361.33746337890625">
+         <font>
+            <Font name="Bell MT" size="46.0" />
+         </font>
+      </Text>
+      <Text fill="ROSYBROWN" layoutX="15.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You have entered your dream car in our database!">
+         <font>
+            <Font name="Bell MT" size="34.0" />
+         </font>
+      </Text>
+      <Text fill="ROSYBROWN" layoutX="105.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank you very much!">
+         <font>
+            <Font name="Bell MT" size="55.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

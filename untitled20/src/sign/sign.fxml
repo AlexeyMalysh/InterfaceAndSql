@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sign.SignController">
+    <children>
+        <AnchorPane layoutY="75.0" prefHeight="325.0" prefWidth="700.0" style="-fx-background-color: #00FFFF;">
+            <children>
+                <TextField fx:id="markCarsSg" layoutX="136.0" layoutY="14.0" promptText="Mark">
+                    <font>
+                        <Font name="Book Antiqua" size="14.0" />
+                    </font>
+                </TextField>
+                <TextField fx:id="modelCarsSg" layoutX="379.0" layoutY="14.0" promptText="Model">
+                    <font>
+                        <Font name="Book Antiqua" size="14.0" />
+                    </font>
+                </TextField>
+                <Button fx:id="MakeDo" layoutX="309.0" layoutY="254.0" mnemonicParsing="false" style="-fx-background-color: #F0E68C;" text="Make!">
+                    <font>
+                        <Font name="Book Antiqua" size="20.0" />
+                    </font>
+                </Button>
+            <TextField fx:id="EngineSg" layoutX="136.0" layoutY="76.0" promptText="Name Engine">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="HorseSg" layoutX="379.0" layoutY="76.0" promptText="Horse Power">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="VolumeSg" layoutX="136.0" layoutY="138.0" promptText="Volume">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="DriveSg" layoutX="379.0" layoutY="138.0" promptText="Drive">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="SpeedSg" layoutX="258.0" layoutY="199.0" promptText="Speed">
+               <font>
+                  <Font name="Book Antiqua" size="14.0" />
+               </font>
+            </TextField>
+            </children>
+        </AnchorPane>
+        <Label layoutX="264.0" layoutY="14.0" style="-fx-alignment: #000000; -fx-border-color: #000000; -fx-graphic: #000000;" text="Make your car">
+            <textFill>
+                <RadialGradient centerX="0.5622222052680121" centerY="1.0" radius="0.5">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color red="1.0" green="1.0" blue="1.0" />
+                            </color>
+                        </Stop>
+                    </stops>
+                </RadialGradient>
+            </textFill>
+            <font>
+                <Font name="Book Antiqua Bold" size="26.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

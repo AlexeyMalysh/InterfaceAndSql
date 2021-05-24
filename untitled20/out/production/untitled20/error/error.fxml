@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="error.errorController">
+   <children>
+      <AnchorPane prefHeight="402.0" prefWidth="600.0" style="-fx-background-color: #fadadd;">
+         <children>
+            <Label layoutX="252.0" layoutY="43.0" text="Oops!" textFill="#462929">
+               <font>
+                  <Font name="Book Antiqua" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="116.0" layoutY="104.0" text="You entered the wrong data!">
+               <font>
+                  <Font name="Book Antiqua" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="29.0" layoutY="201.0" text="Enter the correct data or create your own machine">
+               <font>
+                  <Font name="Baskerville Old Face" size="28.0" />
+               </font>
+            </Label>
+            <Button fx:id="BackEr" layoutX="259.0" layoutY="291.0" mnemonicParsing="false" style="-fx-background-color: #FF1493;" text="Back!" textFill="#f2ecec">
+               <font>
+                  <Font name="Book Antiqua" size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
